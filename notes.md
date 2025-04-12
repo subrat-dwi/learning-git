@@ -8,4 +8,10 @@
 
 >to put *untraced files* on stage
 1. `git add .` for all untraced files
-2. `git add file` for particular
+2. `git add filename` for particular
+
+>to commit the  changes
+`git commit -m "message"`
+
+>to remove a staged file
+`git restore --staged filename`
